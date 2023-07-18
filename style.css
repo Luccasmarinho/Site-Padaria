@@ -1,0 +1,133 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial;
+
+}
+
+body {
+    height: 100vh;
+    background-color: #F4F0E5;
+    
+}
+
+section {
+    width: 700px;
+    margin: auto;
+    
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    border-bottom: 1px solid #DE8E37;
+    border-radius: 2px;
+    margin-bottom: 40px;
+    
+}
+
+.header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    
+    
+}
+
+.header a {
+    color: black;
+}
+
+.header img {
+    width: 300px;
+    
+}
+
+.produtos h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+.produtos h3 {
+    color: #DE8E37;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+.produtos img {
+    width: 700px;
+    height: 450px;
+    
+}
+
+
+
+.laranja {
+    background-color: #DE8E37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.laranja h3 {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.laranja h4 {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    font-size: 1.7rem;
+    margin-bottom: 5px;
+}
+
+.laranja p {
+    color: white;
+    width: 550px;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 10px;
+    
+}
+
+.laranja img {
+    width: 400px;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.566);
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding: 20px 0;
+    
+}
+
+.info h3{
+    font-size: 1.5rem;
+}
+
+
